@@ -1,0 +1,11 @@
+# Build
+build/
+*.o
+*.a
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log

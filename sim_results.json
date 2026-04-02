@@ -1,0 +1,50 @@
+{
+  "spec": {
+    "per_lane_bandwidth_gbps": 100,
+    "lanes": 4,
+    "aggregate_bandwidth_gbps": 400,
+    "latency_us": 0.8,
+    "max_topology_gpus": 576,
+    "power_per_link_w": 25
+  },
+  "results": [
+    {
+      "gpu_count": 8,
+      "data_size_gb": 100,
+      "effective_bandwidth_gbps": 5.56,
+      "transfer_time_s": 18.000006,
+      "total_latency_us": 6.4,
+      "topology_opt": {
+        "optimal_config": "8x GPU \u5168\u8fde\u63a5",
+        "estimated_efficiency": "94.7%",
+        "bottleneck": "\u65e0 (\u7406\u60f3\u60c5\u51b5)"
+      }
+    },
+    {
+      "gpu_count": 64,
+      "data_size_gb": 500,
+      "effective_bandwidth_gbps": 44.44,
+      "transfer_time_s": 11.250051,
+      "total_latency_us": 51.2,
+      "topology_opt": {
+        "optimal_config": "64x GPU \u5168\u8fde\u63a5",
+        "estimated_efficiency": "94.7%",
+        "bottleneck": "\u65e0 (\u7406\u60f3\u60c5\u51b5)"
+      }
+    },
+    {
+      "gpu_count": 256,
+      "data_size_gb": 2000,
+      "effective_bandwidth_gbps": 177.78,
+      "transfer_time_s": 11.250205,
+      "total_latency_us": 204.8,
+      "topology_opt": {
+        "optimal_config": "256x GPU \u5168\u8fde\u63a5",
+        "estimated_efficiency": "94.7%",
+        "bottleneck": "\u65e0 (\u7406\u60f3\u60c5\u51b5)"
+      }
+    }
+  ],
+  "timestamp": "2026-03-23T04:52:07Z",
+  "note": "\u26a0\ufe0f \u5e72\u8dd1\u6d4b\u8bd5\u6a21\u62df\u6570\u636e\uff0c\u4e0d\u53ef\u7528\u4e8e\u5b9e\u9645\u51b3\u7b56\uff01"
+}
